@@ -1,0 +1,71 @@
+{
+  "name": "@ipdrift/client",
+  "version": "1.0.0",
+  "description": "Official JavaScript/TypeScript client for IPDrift IP geolocation API",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.{ts,js}",
+    "lint:fix": "eslint src/**/*.{ts,js} --fix",
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run test",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "ip",
+    "geolocation",
+    "ipinfo",
+    "location",
+    "geoip",
+    "api",
+    "client",
+    "typescript",
+    "javascript"
+  ],
+  "author": "IPDrift",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ipdrift/client-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ipdrift/client-js/issues"
+  },
+  "homepage": "https://github.com/ipdrift/client-js#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/jest": "^29.5.8",
+    "@types/node": "^20.9.0",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "eslint": "^8.53.0",
+    "jest": "^29.7.0",
+    "rollup": "^4.4.1",
+    "rollup-plugin-dts": "^6.1.0",
+    "ts-jest": "^29.1.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
