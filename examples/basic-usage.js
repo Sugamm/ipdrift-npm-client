@@ -1,4 +1,4 @@
-const { IpDriftClient } = require('@ipdrift/client');
+const { IpDriftClient } = require('ipdrift-client');
 
 async function main() {
   // Initialize the client

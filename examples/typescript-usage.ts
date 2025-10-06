@@ -1,4 +1,4 @@
-import { IpDriftClient, IpDriftError } from '@ipdrift/client';
+import { IpDriftClient, IpDriftError } from 'ipdrift-client';
 
 async function main(): Promise<void> {
   // Initialize the client

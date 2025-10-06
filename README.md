@@ -1,6 +1,6 @@
 # IPDrift Client
 
-[![npm version](https://badge.fury.io/js/%40ipdrift%2Fclient.svg)](https://badge.fury.io/js/%40ipdrift%2Fclient)
+[![npm version](https://badge.fury.io/js/ipdrift-client.svg)](https://badge.fury.io/js/ipdrift-client)
 [![Build Status](https://github.com/ipdrift/client-js/workflows/CI/badge.svg)](https://github.com/ipdrift/client-js/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -18,19 +18,19 @@ Official JavaScript/TypeScript client library for the IPDrift IP geolocation API
 ## Installation
 
 ```bash
-npm install @ipdrift/client
+npm install ipdrift-client
 ```
 
 Or with yarn:
 
 ```bash
-yarn add @ipdrift/client
+yarn add ipdrift-client
 ```
 
 ## Quick Start
 
 ```typescript
-import { IpDriftClient } from '@ipdrift/client';
+import { IpDriftClient } from 'ipdrift-client';
 
 // Initialize the client
 const client = new IpDriftClient({
@@ -228,7 +228,7 @@ try {
 ### Basic Usage
 
 ```typescript
-import { IpDriftClient } from '@ipdrift/client';
+import { IpDriftClient } from 'ipdrift-client';
 
 const client = new IpDriftClient({
   apiKey: 'your-api-key-here'
@@ -318,7 +318,7 @@ const client = new IpDriftClient({
 The client works in both Node.js and browser environments:
 
 ```html
-<script src="https://unpkg.com/@ipdrift/client@latest/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/ipdrift-client@latest/dist/index.umd.js"></script>
 <script>
   const client = new IpDriftClient({
     apiKey: 'your-api-key'

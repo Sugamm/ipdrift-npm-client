@@ -1,5 +1,5 @@
 {
-  "name": "@ipdrift/client",
+  "name": "ipdrift-client",
   "version": "1.0.0",
   "description": "Official JavaScript/TypeScript client for IPDrift IP geolocation API",
   "main": "dist/index.js",
@@ -37,12 +37,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sugamm/ipdrift-npm-client/client-js.git"
+    "url": "https://github.com/Sugamm/ipdrift-npm-client.git"
   },
   "bugs": {
-    "url": "https://github.com/Sugamm/ipdrift-npm-client/client-js/issues"
+    "url": "https://github.com/Sugamm/ipdrift-npm-client/issues"
   },
-  "homepage": "https://github.com/Sugamm/ipdrift-npm-client/client-js#readme",
+  "homepage": "https://github.com/Sugamm/ipdrift-npm-client#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
@@ -64,8 +64,5 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
