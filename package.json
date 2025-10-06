@@ -37,12 +37,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ipdrift/client-js.git"
+    "url": "https://github.com/Sugamm/ipdrift-npm-client/client-js.git"
   },
   "bugs": {
-    "url": "https://github.com/ipdrift/client-js/issues"
+    "url": "https://github.com/Sugamm/ipdrift-npm-client/client-js/issues"
   },
-  "homepage": "https://github.com/ipdrift/client-js#readme",
+  "homepage": "https://github.com/Sugamm/ipdrift-npm-client/client-js#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
